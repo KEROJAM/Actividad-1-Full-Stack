@@ -12,3 +12,26 @@ p {
 	text-align: center;
 	padding: 3px;
 }
+
+ul { 
+	list-style-type: square;
+	margin-left: 20px; 
+	list-style-position: inside;
+	list-style-image: url('../Images/Amogus.png');
+}
+
+@media (max-width: 600px) {
+	body {
+		background-color: LightCoral;
+
+	}
+}
+
+.Proyecto {
+	background-color: Tomato;
+	padding: 25px;
+	margin: 16px auto;
+	width: 80%;
+	text-align: center;
+}
+
