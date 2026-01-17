@@ -32,6 +32,24 @@ body {
 	}
 }
 
+.Introduccion {
+	padding: 15px;
+	border-radius: 12px;
+}
+
+#IntroduccionPar {
+	paddin: 2px;
+	margin: 0px 15px 20px 15px;
+	font-size: 18px;
+
+}
+
+#IntroduccionTitulo {
+	margin-top: 20px;
+	font-size: 30px;
+
+}
+
 .Proyecto {
 	background-color: AliceBlue;
 	padding: 15px;
@@ -50,6 +68,8 @@ body {
 
 #ProyectoList {
 	padding: 10px;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
 	border-bottom-left-radius: 12px;
 	border-bottom-right-radius: 12px;
 	
@@ -59,20 +79,8 @@ body {
 	margin: auto;
 }
 
-.Introduccion {
-	padding: 25px;
-	border-radius: 12px;
-}
-
-.Introduccion.p {
-	margin: 0px 15px 0px 15px;
-	font-size: 25px;
-
-}
-
-.Introduccion.h1 {
-	font-size: 30px;
-
+.Contacto {
+	padding 20px;
 }
 
 .Footer {
