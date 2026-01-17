@@ -34,32 +34,52 @@ body {
 
 .Proyecto {
 	background-color: AliceBlue;
-	padding: 25px;
-	margin: 0px auto;
-	width: 80%;
+	padding: 15px;
+	width: 89%;
+	margin: auto;
 	text-align: center;
 	color: Black;
 }
 
-.Proyecto h1 {
+#ProyectoHead {
+	padding: 10px;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
+
 }
 
-.Proyecto ul {
+#ProyectoList {
+	padding: 10px;
 	border-bottom-left-radius: 12px;
 	border-bottom-right-radius: 12px;
+	
+}
+
+#ProyectoListDesc {
+	margin: auto;
 }
 
 .Introduccion {
 	padding: 25px;
+	border-radius: 12px;
 }
 
 .Introduccion.p {
 	margin: 0px 15px 0px 15px;
 	font-size: 25px;
+
 }
 
 .Introduccion.h1 {
 	font-size: 30px;
+
+}
+
+.Footer {
+	background-color: AliceBlue;
+	color: Black;
+	padding: 15px;
+	margin: auto;
+	width: 89%;
+	border-radius: 12px;
 }
