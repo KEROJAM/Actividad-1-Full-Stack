@@ -13,13 +13,14 @@ p {
 	padding: 3px;
 }
 
-dl { 
+li {	
+	list-style-type: square;
 	margin-left: 20px; 
 	list-style-position: inside;
 	list-style-image: url('../Images/Amogus.png');
 }
 
-html {
+body {
 	background-color: #141415;
 	color: White;
 }
@@ -40,14 +41,14 @@ html {
 	color: Black;
 }
 
-.Proyecto.h1 {
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+.Proyecto h1 {
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
 }
 
-.Proyecto.p {
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+.Proyecto ul {
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
 }
 
 .Introduccion {
