@@ -33,9 +33,10 @@ li {
 }
 
 body {
-/*	background-color: #141415;*/
+	background-color: #141415;
 	background-image: url('../Images/188687-1856960131.jpg');
 	color: White;
+	font-family: "Zen Maru Gothic", sans-serif; 
 }
 
 @media (max-width: 600px) {
@@ -57,6 +58,41 @@ body {
 	margin: auto;
 	color: #141415;
 	border-radius: 12px;
+	opacity: 0.9;
+}
+
+.Icons {
+	margin: auto;
+	display: block;
+}
+
+.Form {
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #333335;
+	width: 89%;
+	border-radius: 12px;
+	color: White;
+	opacity: 0.9;
+
+}
+
+.Form input{
+	margin: auto;
+	width: 50%;
+	height: 30%;
+	padding: 12px;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+
+.Form label {
+	font-size: 18;
+}
+
+#Message {
+	height: 40;
 }
 
 .container {
@@ -71,6 +107,7 @@ body {
 	margin: auto;
 	padding: 5px;
 	border-radius: 12px;
+	opacity: 0.9;
 }
 
 .Introduccion {
@@ -90,11 +127,13 @@ body {
 #TituloHeader {
 	background-color: #333335;
 	font-size: 30px;
-	width: 100%;
+	width: 89%;
 	height: 20%;
 	padding: 25px;
 	margin: auto;
 	text-align: center;
+	border-radius: 12px;
+	opacity: 0.9;
 }
 
 #ProyectoListDesc {
