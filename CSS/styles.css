@@ -8,14 +8,24 @@ h1 {
 	padding: 3px;
 }
 
+h2 {
+	text-align: center;
+	padding: 3px;
+}
+
 p {
 	text-align: center;
 	padding: 3px;
 }
 
+ul {
+	text-align: center;
+
+}
+
 li {	
 	list-style-type: square;
-	margin-left: 20px; 
+	margin: auto;
 	list-style-position: inside;
 	list-style-image: url('../Images/Amogus.png');
 }
@@ -32,47 +42,70 @@ body {
 	}
 }
 
+.DivWhite {
+	background-color: AliceBlue;
+	padding: 15px;
+	width: 89%;
+	margin: auto;
+	color: #141415;
+	border-radius: 12px;
+}
+
+.Table {
+	width: 89%;
+	margin: auto;
+	padding: 35px;
+	text-align: center;
+}
+
+.ColFirst {
+	background-color: #333335;
+}
+
+#Titulo1Head {
+	border-radius-top-left: 12px;
+	border-radius-top-right: 12px;
+
+}
+
+#ContFirst {
+	border-radius-bottom-left: 12px;
+	border-radius-bottom-right: 12px;
+}
+
+.ColSec {
+	background-color: #333335;
+	border-radius: 12px;
+}
+
+.ColThird {
+	background-color: #141415;
+	padding: 30px;
+}
+
+
 .Introduccion {
 	padding: 15px;
 	border-radius: 12px;
 }
 
-#IntroduccionPar {
-	paddin: 2px;
-	margin: 0px 15px 20px 15px;
+.IntroduccionPar {
+	padding: 2px;
+	margin: auto;
+	margin-top: 40px;
 	font-size: 18px;
-
+	width: 79%;
+	text-align: center;
 }
 
-#IntroduccionTitulo {
-	margin-top: 20px;
+#TituloHeader {
+	background-color: #333335;
 	font-size: 30px;
-
-}
-
-.Proyecto {
-	background-color: AliceBlue;
-	padding: 15px;
-	width: 89%;
+	width: 100%;
+	height: 10%;
+	position: fixed;
 	margin: auto;
 	text-align: center;
-	color: Black;
-}
-
-#ProyectoHead {
-	padding: 10px;
-	border-top-left-radius: 12px;
-	border-top-right-radius: 12px;
-
-}
-
-#ProyectoList {
-	padding: 10px;
-	text-decoration-line: underline;
-	text-decoration-style: wavy;
-	border-bottom-left-radius: 12px;
-	border-bottom-right-radius: 12px;
-	
 }
 
 #ProyectoListDesc {
@@ -80,14 +113,5 @@ body {
 }
 
 .Contacto {
-	padding 20px;
-}
-
-.Footer {
-	background-color: AliceBlue;
-	color: Black;
-	padding: 15px;
-	margin: auto;
-	width: 89%;
-	border-radius: 12px;
+	margin-bottom: 35px;
 }
